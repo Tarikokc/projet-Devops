@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y \
 
 COPY . /usr/share/nginx/html
 
-EXPOSE 81
+EXPOSE 80
